@@ -9785,3 +9785,84 @@ org.eclipse.jface.text.BadPartitioningException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-30 09:43:28.380
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.IBwNbeNO => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-30 09:53:42.696
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-30 09:53:42.697
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2de20d97[org.springframework.tooling.boot.ls:1.28.0.202109130547(id=562)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-30 09:53:42.699
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-30 09:53:45.352
+!MESSAGE Boot LS startup time from start to initialized: 2651ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-30 09:53:45.451
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.dKnYwmhuisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-30 09:53:45.451
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-30 09:53:45.452
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-30 09:53:45.452
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-30 09:53:45.453
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-30 09:53:45.453
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.dKnYwmhu => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-30 09:53:45.457
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-30 09:53:45.460
+!MESSAGE buffering callback sts4.classpath.dKnYwmhu Jpa2301 false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-30 09:53:45.461
+!MESSAGE executing callback sts4.classpath.dKnYwmhu 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-30 09:53:46.279
+!MESSAGE executing callback sts4.classpath.dKnYwmhu SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-01-30 09:54:13.156
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1384)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-01-30 09:55:47.587
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1384)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-01-30 09:55:58.376
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1384)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-30 09:59:04.837
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.dKnYwmhu
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-30 09:59:04.837
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.dKnYwmhu
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-30 09:59:04.838
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-01-30 09:59:04.838
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.dKnYwmhu => OK
