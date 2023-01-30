@@ -1,0 +1,11 @@
+LaunchTargetManager/configs/Jpa2301ApplicationTests=null\:---
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Jpa2301 - Jpa2301Application,org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:Jpa2301,org.eclipse.launchbar.core.descriptorType.default\:Jpa2301ApplicationTests
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Jpa2301\ -\ Jpa2301Application/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Jpa2301\ -\ Jpa2301Application/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Jpa2301ApplicationTests/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Jpa2301ApplicationTests/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:Jpa2301/activeLaunchTarget=null\:---

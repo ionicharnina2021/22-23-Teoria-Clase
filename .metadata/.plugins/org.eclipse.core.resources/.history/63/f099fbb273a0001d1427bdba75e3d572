@@ -1,0 +1,9 @@
+package com.example.demo.modelo;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class Persona {
+
+	private String nombre;
+}
